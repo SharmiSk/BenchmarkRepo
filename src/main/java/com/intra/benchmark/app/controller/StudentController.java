@@ -12,7 +12,7 @@ public class StudentController {
 	
 	@GetMapping("/welcome")
 	public ResponseEntity<String> welcome() {
-	    return new ResponseEntity<>("Hello Students! welcome to BenchmarkEducation", HttpStatus.OK);
+	    return new ResponseEntity<>("Hello Students! welcome to BenchmarkEducation Platform", HttpStatus.OK);
 	
 }
 	@GetMapping("/getStudent")
